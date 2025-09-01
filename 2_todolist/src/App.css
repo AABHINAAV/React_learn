@@ -1,0 +1,162 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-div
+{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(24, 0, 48);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.child-div
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.figure
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.figure .logo
+{
+  height: 4rem;
+  width: 4rem;
+}
+
+.figure .figurecaption
+{
+  color: white;
+}
+
+.addItems
+{
+  display: flex;
+  width: 25vw;
+  padding: 0.2rem 0.5rem;
+  background: white;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.addItems .field
+{
+  height: 2rem;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.addItems .addbtn
+{
+  height: 1.5rem;
+  width: 1.5rem;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  transition: all ease 0.3s;
+}
+
+.addItems .addbtn:hover
+{
+  background-color: rgb(76, 0, 148);
+  color: white;
+}
+
+.showItems
+{
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  padding: 0.2rem 0.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.4rem;
+}
+
+.showItems .item
+{
+  padding: 0.2rem 1rem;
+  height: 2rem;
+  width: 100%;
+  background-color: white;
+  border-radius: 1rem;
+  background-color: rgb(40, 247, 229);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.showItems .item .itemname
+{
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.showItems .item .btnsSet
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.showItems .item .editBtn
+{
+  padding: 0.1rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  transition: all ease 0.3s;
+  margin-right: 0.2rem;
+}
+
+.showItems .item .editBtn:hover
+{
+  background-color: rgb(76, 0, 148);
+  color: white;
+}
+
+.showItems .item .removeBtn
+{
+  padding: 0.1rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  transition: all ease 0.3s;
+}
+
+.showItems .item .removeBtn:hover
+{
+  background-color: rgb(76, 0, 148);
+  color: white;
+}

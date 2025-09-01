@@ -1,0 +1,38 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing:content-box;
+}
+
+.main_div
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(5, 5, 49);
+}
+
+.board_box
+{
+    height: 300px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+}
+
+.box
+{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    color: black;
+    font-size: 4rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
